@@ -1,0 +1,8 @@
+CORS, or Cross-Origin Resource Sharing, is a security measure in web browsers that controls
+ how websites from one domain can request and use resources from another domain. This helps 
+ prevent potential security risks.
+
+How it Works:
+
+By default, web browsers don't allow websites to make requests to a different domain than the one that served the web page.
+Servers need to include special headers in their responses to allow cross-origin requests.

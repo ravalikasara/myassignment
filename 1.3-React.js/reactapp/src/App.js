@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
-import BlogPosts from './Components/BlogsPost'
+
+import Posts from './Component/Posts/index'
 const blogsList = [
   {
     id: 1,
@@ -11,19 +12,19 @@ const blogsList = [
   {
     id: 2,
     title: 'My second post',
-    Author:'APJ shinde',
+    Author:'rohit sharma',
     publishedDate: 'Mar 1st',
   },
   {
     id: 3,
     title: 'My third post',
-    Author:'chetan Bhagat',
+    Author:'ramaswamy',
     publishedDate: 'Jan 2nd',
   },
   {
     id: 4,
     title: 'My fourth post',
-    Author:'chetan Bhagat', publishedDate: 'Dec 24th',
+    Author:'ashok mishra', publishedDate: 'Dec 24th',
   },
   {
     id: 5,
@@ -33,7 +34,9 @@ const blogsList = [
 ]
 function App() {
   return (
-    <BlogPosts blogsList={blogsList}/>
+   <>
+    <Posts blogsList={blogsList}/>
+    </>
   );
 }
 

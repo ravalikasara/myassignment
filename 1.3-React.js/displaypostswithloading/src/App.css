@@ -36,37 +36,3 @@
     transform: rotate(360deg);
   }
 }
-.container{
-  display:flex;
-  flex-direction: column;
-  font-family: "Roboto";
-  
-}
-.list-item{
-  margin:10px;
-  list-style-type: none;
-  display: flex;
-justify-content: space-around;
-
-}
-.title{
-  font-size: 30px;
-  font-weight: 600;
-  margin:10px;
-
-}
-.author{
-  font-size: 15px;
-  
-  margin:10px;
-
-}
-.button{
-  background-color:#4a86fef0;
-  color:white;
-  border: none;
-  outline:none;
-  border-radius: 5px;
-  height:35px;
-  width:100px;
-}
